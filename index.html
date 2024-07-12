@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+    body{
+        margin: 0px;
+    }
+    
+    .col-6{
+        /* border: 1px solid black; */
+        margin-bottom: 200px;
+    }
+    .r1{
+        margin-bottom: 0px;
+    }
+    .c1{
+        margin-top: 20px;
+        margin-bottom: 280px;
+        background-image: url(https://cdn.pixabay.com/photo/2019/08/22/14/14/mountains-4423621_1280.jpg);
+        
+        z-index: -1;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        padding-bottom: 500px;
+        border: 1px solid black;
+        height: 700px; 
+    }
+    .h1{
+        text-align: center;
+        padding-top: 30px;
+        color: rgb(23, 24, 24);
+        font-family:cursive;
+    }
+    .para{
+        text-align: center;
+        color: rgb(55, 59, 55);
+        font-weight: bolder;
+        background-color: rgba(240, 248, 255, 0.356);
+    }
+    .c2{
+        margin-top: 20px;
+        /* background-color: rgba(159, 223, 165, 0.307); */
+            padding-top: 50px;
+            margin-bottom: 280px;
+            height: 700px;
+            
+    }
+    .c2::before{
+        content:"";
+       
+
+    }
+    .f1{
+            margin-top: 50px;   
+    }
+    .f2{
+        margin-top: 20px;
+    }
+    input{
+        float: right;
+        margin-right:100px;
+        width: 250px;
+    }
+    h1{
+        text-align: center;
+        /* margin-right: 60px; */
+        font-size:70px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:rgba(201, 67, 67, 0.76)
+    }
+    h3{
+        text-align: center;
+        color:rgba(28, 28, 22, 0.404);
+        font-style: italic;
+    }
+    label{
+        margin-left: 140px;
+        font-size: large;
+    }
+    .pic2{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 60px;
+    }
+    .img{
+        width: 100px;
+    }
+    .img1{
+        width: 80px;
+    }
+    .a{
+        float: right;
+        margin-right: 100px;
+        color:blue;
+    }
+    button{
+        border: none;
+        background-color: rgba(0, 213, 255, 0.619);
+        width: 386px;
+        margin-left: 140px;
+    }
+    #p{
+        margin-top: 30px;
+        margin-left: 290px;
+    }
+    #p1{
+        margin-top: 20px;
+        float:right;
+        margin-right: 100px;
+    }
+    .a1{
+        color: blue;
+    }
+</style>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <div class="row r1">
+                <div class="col-6 c1">
+                    <h1 class="h1">Traveler Tribe</h1>
+                    <p class="para"><i>Explore the hindden beauty of nature and wonders of the world with us.Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, it can introduce the idea that if we try and understand each other, we may even become friends</i></p>
+                </div>
+                <div class="col-6 c2">
+                    <h1 >Get Started</h1>
+                    <h3 >Log in with Email</h3>
+                    <form class="f1">
+                        <fieldset>
+                            <label>Email</label>
+                            <input type="text">
+                        </fieldset>
+                    </form>
+                    <form class="f2">
+                        <fieldset>
+                            <label>Password</label>
+                            <input type="password">
+                        </fieldset>
+                    </form><br>
+                    <a class="a">Forgot your password?</a><br><br>
+                    <button>Login</button>
+                    <p id="p">------or------</p>
+                    <div class="pic2">
+                        <img class="img1" src="https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_640.jpg" alt="">
+                        <img class="img" src="https://cdn.pixabay.com/photo/2018/06/22/19/03/logo-3491390_1280.png" alt="">
+                        <img class="img" src="https://cdn.pixabay.com/photo/2018/05/08/21/28/apple-3384010_640.png" alt="">
+                    </div>
+                    <p id="p1">don't have an account? <a class="a1"> Register now</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
